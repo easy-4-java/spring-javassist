@@ -51,8 +51,8 @@ import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.github.hiwepy.javassist.bytecode.CtAnnotationBuilder;
-import com.github.hiwepy.javassist.utils.JavassistUtils;
+import io.github.hiwepy.javassist.bytecode.CtAnnotationBuilder;
+import io.github.hiwepy.javassist.utils.JavassistUtils;
 
 import javassist.CannotCompileException;
 import javassist.ClassPool;

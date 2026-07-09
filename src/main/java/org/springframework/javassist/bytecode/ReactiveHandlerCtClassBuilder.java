@@ -4,7 +4,7 @@ import org.springframework.javassist.bytecode.definition.MvcBound;
 import org.springframework.javassist.utils.EndpointApiUtils;
 import org.springframework.web.reactive.function.server.ServerRequest;
 
-import com.github.hiwepy.javassist.utils.JavassistUtils;
+import io.github.hiwepy.javassist.utils.JavassistUtils;
 
 import javassist.CannotCompileException;
 import javassist.ClassPool;
