@@ -5,7 +5,7 @@
 
 ``` xml
 <dependency>
-	<groupId>com.github.hiwepy</groupId>
+	<groupId>io.github.easy4j</groupId>
 	<artifactId>spring-javassist</artifactId>
 	<version>1.0.7.RELEASE</version>
 </dependency>

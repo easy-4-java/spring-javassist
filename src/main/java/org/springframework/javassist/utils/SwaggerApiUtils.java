@@ -20,7 +20,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.javassist.bytecode.definition.MvcApiImplicitParam;
 import org.springframework.javassist.bytecode.definition.MvcApiResponse;
 
-import com.github.hiwepy.javassist.bytecode.CtAnnotationBuilder;
+import io.github.easy4j.javassist.bytecode.CtAnnotationBuilder;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
