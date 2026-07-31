@@ -13,7 +13,7 @@ import org.springframework.javassist.utils.EndpointApiUtils;
 import org.springframework.javassist.utils.SwaggerApiUtils;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import io.github.hiwepy.javassist.utils.JavassistUtils;
+import io.github.easy4j.javassist.utils.JavassistUtils;
 
 import javassist.CannotCompileException;
 import javassist.ClassPool;
