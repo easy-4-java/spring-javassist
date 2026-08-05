@@ -401,12 +401,12 @@
 		<jakarta-servlet.version>6.0.0</jakarta-servlet.version>
 		<jakarta-validation.version>3.0.2</jakarta-validation.version>
 		<jakarta-xml-ws.version>4.0.2</jakarta-xml-ws.version>
-		<javassist-plus.version>1.0.4.RELEASE</javassist-plus.version>
+		<javassist-plus.version>1.0.x.20260630-SNAPSHOT</javassist-plus.version>
 		<junit.version>4.13.2</junit.version>
 		<junit-jupiter.version>5.10.3</junit-jupiter.version>
 		<lombok.version>1.18.46</lombok.version>
 		<slf4j.version>2.0.18</slf4j.version>
-		<spring.version>6.1.18</spring.version>
+		<spring.version>5.3.39</spring.version>
 		<springfox.version>3.0.0</springfox.version>
 		<swagger.version>1.6.14</swagger.version>
 	</properties>
