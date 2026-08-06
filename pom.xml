@@ -200,7 +200,7 @@
 							</manifest>
 							<manifestEntries>
 								<Can-Redefine-Classes>true</Can-Redefine-Classes>
-								<Premain-Class>io.github.hiwepy.javassist.MyAgent2</Premain-Class>
+								<Premain-Class>io.github.easy4j.javassist.MyAgent2</Premain-Class>
 							</manifestEntries>
 						</archive>
 					</configuration>
