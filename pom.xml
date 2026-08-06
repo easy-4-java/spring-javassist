@@ -524,7 +524,7 @@
         <jakarta-servlet.version>6.0.0</jakarta-servlet.version>
         <jakarta-validation.version>3.0.2</jakarta-validation.version>
         <jakarta-xml-ws.version>4.0.2</jakarta-xml-ws.version>
-        <javassist-plus.version>1.0.x.20260630-SNAPSHOT</javassist-plus.version>
+        <easy4j-javassist-plus.version>1.0.x.20260630-SNAPSHOT</easy4j-javassist-plus.version>
         <!-- Dependency versions -->
         <junit.version>4.13.2</junit.version>
         <junit-jupiter.version>5.10.3</junit-jupiter.version>
@@ -597,7 +597,7 @@
             <dependency>
                 <groupId>io.github.easy4j</groupId>
                 <artifactId>javassist-plus</artifactId>
-                <version>${javassist-plus.version}</version>
+                <version>${easy4j-javassist-plus.version}</version>
             </dependency>
             <!-- For Springfox -->
             <dependency>
