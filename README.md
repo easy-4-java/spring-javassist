@@ -20,7 +20,7 @@
 
 ## 1. Project Overview
 
-`spring-javassist` generates Spring MVC controllers at runtime with Javassist (through the easy4j `javassist-plus` module). Instead of hand-writing a `@Controller` / `@RestController`, you describe the endpoint with a fluent builder (`EndpointApiCtClassBuilder`) — class annotations, request mappings, methods, fields and parameters — and the module produces a `CtClass` that can be turned into a loadable class wired for Spring MVC (servlet) or Spring WebFlux (reactive).
+`spring-javassist` generates Spring MVC controllers at runtime with Javassist (through the easy4j `javassist-extension` module). Instead of hand-writing a `@Controller` / `@RestController`, you describe the endpoint with a fluent builder (`EndpointApiCtClassBuilder`) — class annotations, request mappings, methods, fields and parameters — and the module produces a `CtClass` that can be turned into a loadable class wired for Spring MVC (servlet) or Spring WebFlux (reactive).
 
 It is for dynamic/plugin-style applications that must expose new HTTP endpoints without recompiling — it is not a code generator tool and not a replacement for writing regular Spring controllers.
 
@@ -54,7 +54,7 @@ Project status: pre-release development line (`1.0.x.*` snapshots); public API i
 |:---|:---|
 | JDK | 17+ |
 | Maven | 3.6+ |
-| Javassist | via easy4j `javassist-plus` (same `1.0.x.*` line) |
+| Javassist | via easy4j `javassist-extension` (same `1.0.x.*` line) |
 | Spring Framework | 5.3.x (spring-webmvc, spring-webflux, spring-context) |
 | Swagger annotations | springfox-core + swagger-annotations |
 
