@@ -4,7 +4,7 @@
 
 [![Java](https://img.shields.io/badge/Java-21-orange)](https://github.com/easy-4-java/spring-javassist) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
 
-spring-javassist 使用 Javassist（经 easy4j javassist-plus 模块）在运行时生成 Spring MVC Controller。
+spring-javassist 使用 Javassist（经 easy4j javassist-extension 模块）在运行时生成 Spring MVC Controller。
 
 ## 目录
 
@@ -22,7 +22,7 @@ spring-javassist 使用 Javassist（经 easy4j javassist-plus 模块）在运行
 
 ## 1. Project Overview
 
-`spring-javassist` 使用 Javassist（经 easy4j `javassist-plus` 模块）在运行时生成 Spring MVC Controller。无需手写 `@Controller` / `@RestController`，只需用流式构建器（`EndpointApiCtClassBuilder`）描述端点——类注解、请求映射、方法、字段与参数——模块即可产出可转为可加载类（面向 Spring MVC Servlet 或 Spring WebFlux 响应式）的 `CtClass`。
+`spring-javassist` 使用 Javassist（经 easy4j `javassist-extension` 模块）在运行时生成 Spring MVC Controller。无需手写 `@Controller` / `@RestController`，只需用流式构建器（`EndpointApiCtClassBuilder`）描述端点——类注解、请求映射、方法、字段与参数——模块即可产出可转为可加载类（面向 Spring MVC Servlet 或 Spring WebFlux 响应式）的 `CtClass`。
 
 它面向需要在不重新编译的情况下动态暴露 HTTP 端点的插件化应用——不是代码生成工具，也不能替代手写常规 Spring Controller。
 
@@ -56,7 +56,7 @@ spring-javassist 使用 Javassist（经 easy4j javassist-plus 模块）在运行
 |:---|:---|
 | JDK | 21+ |
 | Maven | 3.6+ |
-| Javassist | 经 easy4j `javassist-plus`（同一 `1.0.x.*` 版本线） |
+| Javassist | 经 easy4j `javassist-extension`（同一 `1.0.x.*` 版本线） |
 | Spring Framework | 5.3.x（spring-webmvc、spring-webflux、spring-context） |
 | Swagger 注解 | springfox-core + swagger-annotations |
 

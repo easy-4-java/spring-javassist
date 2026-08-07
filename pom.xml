@@ -524,7 +524,7 @@
         <jakarta-servlet.version>6.0.0</jakarta-servlet.version>
         <jakarta-validation.version>3.0.2</jakarta-validation.version>
         <jakarta-xml-ws.version>4.0.2</jakarta-xml-ws.version>
-        <easy4j-javassist-plus.version>3.0.x.20260630-SNAPSHOT</easy4j-javassist-plus.version>
+        <easy4j-javassist-extension.version>3.0.x.20260630-SNAPSHOT</easy4j-javassist-extension.version>
         <!-- Dependency versions -->
         <junit.version>4.13.2</junit.version>
         <junit-jupiter.version>6.1.0</junit-jupiter.version>
@@ -593,11 +593,11 @@
                 <artifactId>spring-context</artifactId>
                 <version>${spring.version}</version>
             </dependency>
-            <!-- Source: https://github.com/easy-4-java/javassist-plus — easy4j javassist-plus -->
+            <!-- Source: https://github.com/easy-4-java/javassist-extension — easy4j javassist-extension -->
             <dependency>
                 <groupId>io.github.easy4j</groupId>
-                <artifactId>javassist-plus</artifactId>
-                <version>${easy4j-javassist-plus.version}</version>
+                <artifactId>javassist-extension</artifactId>
+                <version>${easy4j-javassist-extension.version}</version>
             </dependency>
             <!-- For Springfox -->
             <dependency>
@@ -657,10 +657,10 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
-        <!-- Source: https://github.com/easy-4-java/javassist-plus — easy4j javassist-plus -->
+        <!-- Source: https://github.com/easy-4-java/javassist-extension — easy4j javassist-extension -->
         <dependency>
             <groupId>io.github.easy4j</groupId>
-            <artifactId>javassist-plus</artifactId>
+            <artifactId>javassist-extension</artifactId>
         </dependency>
         <!-- For Spring Framework -->
         <dependency>
