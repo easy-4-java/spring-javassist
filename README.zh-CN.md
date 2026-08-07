@@ -4,6 +4,8 @@
 
 [![Java](https://img.shields.io/badge/Java-21-orange)](https://github.com/easy-4-java/spring-javassist) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
 
+spring-javassist 使用 Javassist（经 easy4j javassist-plus 模块）在运行时生成 Spring MVC Controller。
+
 ## 目录
 
 - [1. Project Overview](#1-project-overview)

@@ -4,6 +4,8 @@
 
 [![Java](https://img.shields.io/badge/Java-21-orange)](https://github.com/easy-4-java/spring-javassist) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
 
+spring-javassist generates Spring MVC controllers at runtime with Javassist (through the easy4j javassist-plus module)
+
 ## Table of Contents
 
 - [1. Project Overview](#1-project-overview)
