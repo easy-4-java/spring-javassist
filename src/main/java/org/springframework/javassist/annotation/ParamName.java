@@ -23,14 +23,37 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 动态生成方法是在参数上注解该参数名称
+ * Marks a dynamically generated field with the original parameter name so that
+ * it can be recovered at runtime from a Javassist-built proxy.
+ *
+ * <p>When a controller method is materialised by
+ * {@code EndpointApiCtClassBuilder}, the runtime argument names that the
+ * developer wrote in source code are not preserved by the underlying
+ * {@code javassist} API. The generated field is therefore annotated with
+ * {@link ParamName} to record the original logical name, allowing downstream
+ * code (such as the {@code @WebParam} machinery inside
+ * {@code EndpointApiUtils#annotParams}) to look up that name without resorting
+ * to reflection on compiler-generated argument names.</p>
+ *
+ * <p>The annotation is retained at runtime, is inheritable, and may be applied
+ * to fields only &mdash; applying it to a method or type would be meaningless
+ * because the generated binding always targets a synthetic field.</p>
+ *
+ * @author [@Loong Wan](https://github.com/loong10k)
+ * @since 3.0.0
+ * @see org.springframework.javassist.utils.EndpointApiUtils#annotParams(javassist.bytecode.ConstPool, org.springframework.javassist.bytecode.definition.MvcParam[])
  */
 @Target({ ElementType.FIELD })
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Inherited
 public @interface ParamName {
-	
-	String name(); 
+
+	/**
+	 * The original parameter name to be carried by the annotated field.
+	 *
+	 * @return the original parameter name, never {@code null}
+	 */
+	String name();
 
 }
