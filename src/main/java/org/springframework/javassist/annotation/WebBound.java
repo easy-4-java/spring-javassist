@@ -22,14 +22,45 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+/**
+ * Associates a generated controller method with the auxiliary payload (a primary
+ * key plus a JSON document) the framework uses to short-circuit request
+ * handling.
+ *
+ * <p>{@code @WebBound} is emitted by {@code EndpointApiUtils#annotWebBound}
+ * onto every method whose binding metadata is not {@code null}. When the
+ * generated proxy is invoked, the binding layer looks the annotation up to
+ * decide whether a cached lookup against {@link #uid()} should be attempted
+ * before falling back to the supplied {@link #json()} template.</p>
+ *
+ * <p>The annotation may be applied to classes (for default per-method binding)
+ * or methods (for binding specific to that handler). It is retained at runtime
+ * and is inheritable, allowing subclasses to inherit a parent's binding.</p>
+ *
+ * @author [@Loong Wan](https://github.com/loong10k)
+ * @since 3.0.0
+ * @see org.springframework.javassist.utils.EndpointApiUtils#annotWebBound(javassist.bytecode.ConstPool, org.springframework.javassist.bytecode.definition.MvcBound)
+ */
 @Target({ ElementType.TYPE, ElementType.METHOD })
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Inherited
 public @interface WebBound {
 
+	/**
+	 * The unique identifier of the bound data record &mdash; typically the
+	 * primary key used to fetch additional context.
+	 *
+	 * @return the bound record identifier, defaults to an empty string
+	 */
 	String uid() default "";
 
+	/**
+	 * A JSON payload that the framework should expose to the handler when the
+	 * binding layer cannot resolve {@link #uid()} against a registry.
+	 *
+	 * @return the default JSON payload, defaults to an empty JSON object
+	 */
 	String json() default "{}";
 
 }
