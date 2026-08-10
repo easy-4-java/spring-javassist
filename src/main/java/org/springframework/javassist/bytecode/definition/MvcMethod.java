@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * {@link #consumes}, {@link #produces} and {@link #responseBody} populate the
  * matching {@code @*Mapping} annotation.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see org.springframework.javassist.bytecode.EndpointApiCtClassBuilder#newMethod(Class, MvcMethod, MvcBound, MvcParam...)
  * @see org.springframework.web.bind.annotation.RequestMapping

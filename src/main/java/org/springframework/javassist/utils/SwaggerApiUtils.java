@@ -45,7 +45,7 @@ import javassist.bytecode.annotation.Annotation;
  * strings, {@link Void} for response classes, empty arrays for tag lists)
  * so that downstream Swagger renderers never see a {@code null} member.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see EndpointApiUtils
  * @see io.swagger.annotations.ApiOperation

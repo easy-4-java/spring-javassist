@@ -25,7 +25,7 @@ import reactor.core.publisher.Mono;
  * {@link java.lang.reflect.InvocationHandler} stored on the parent
  * {@link ReactiveHandler}.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see CtClassBuilder
  * @see ReactiveHandler

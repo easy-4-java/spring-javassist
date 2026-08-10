@@ -26,7 +26,7 @@ package org.springframework.javassist.bytecode.definition;
  * attributes, so changing a field on this object is enough to influence the
  * produced documentation.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see io.swagger.annotations.ApiImplicitParam
  * @see org.springframework.javassist.utils.SwaggerApiUtils#annotApiImplicitParams(javassist.bytecode.ConstPool, MvcApiImplicitParam...)

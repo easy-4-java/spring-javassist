@@ -33,7 +33,7 @@ package org.springframework.javassist.bytecode.definition;
  *         through the generated Swagger documentation.</li>
  * </ul>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see org.springframework.javassist.annotation.WebBound
  * @see org.springframework.javassist.utils.EndpointApiUtils#annotWebBound(javassist.bytecode.ConstPool, MvcBound)

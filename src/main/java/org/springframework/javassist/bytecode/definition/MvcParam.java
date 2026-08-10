@@ -25,7 +25,7 @@ package org.springframework.javassist.bytecode.definition;
  * annotation ({@code @CookieValue}, {@code @PathVariable}, ...) when emitting
  * the generated method signature.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @param <T> the declared Java type of the parameter
  * @since 3.0.0
  * @see MvcParamFrom

@@ -31,7 +31,7 @@ import java.lang.reflect.InvocationHandler;
  * {@code CtClassBuilder#toInstance(InvocationHandler)} for direct, hand-built
  * proxies).</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see InvocationHandler
  * @see CtClassBuilder#toInstance(InvocationHandler)

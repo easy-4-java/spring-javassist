@@ -35,7 +35,7 @@ import reactor.core.publisher.Mono;
  * implementations return empty publishers so that subclasses only have to
  * override what they actually care about.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see EndpointApi
  * @see org.springframework.javassist.bytecode.ReactiveHandlerCtClassBuilder

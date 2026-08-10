@@ -39,7 +39,7 @@ import java.lang.annotation.Target;
  * to fields only &mdash; applying it to a method or type would be meaningless
  * because the generated binding always targets a synthetic field.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see org.springframework.javassist.utils.EndpointApiUtils#annotParams(javassist.bytecode.ConstPool, org.springframework.javassist.bytecode.definition.MvcParam[])
  */

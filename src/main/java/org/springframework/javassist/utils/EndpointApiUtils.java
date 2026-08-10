@@ -88,7 +88,7 @@ import javassist.bytecode.annotation.StringMemberValue;
  *         Javassist quirks (cache pruning, constructors, ...).</li>
  * </ol>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see SwaggerApiUtils
  * @see org.springframework.javassist.bytecode.CtClassBuilder

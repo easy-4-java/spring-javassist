@@ -26,7 +26,7 @@ package org.springframework.javassist.bytecode.definition;
  * remote schema, and an optional container hint ({@code List}, {@code Set} or
  * {@code Map}).</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see io.swagger.annotations.ApiResponse
  * @see org.springframework.javassist.utils.SwaggerApiUtils#annotApiResponses(javassist.bytecode.ConstPool, MvcApiResponse...)

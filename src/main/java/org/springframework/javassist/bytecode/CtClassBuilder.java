@@ -45,7 +45,7 @@ import javassist.bytecode.annotation.Annotation;
  * {@code this} (or, in subclasses, the covariant return type) and the caller
  * can chain calls until {@link #build()} or {@link #toClass()} is invoked.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see EndpointApiCtClassBuilder
  * @see ReactiveHandlerCtClassBuilder

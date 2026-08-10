@@ -42,7 +42,7 @@ import org.springframework.web.multipart.MultipartResolver;
  * used by the dynamic Web-bound layer and a {@link #fromList()} helper that
  * enumerates every value into a UI-friendly list.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see org.springframework.web.bind.annotation.CookieValue
  * @see org.springframework.web.bind.annotation.MatrixVariable

@@ -37,7 +37,7 @@ import java.lang.annotation.Target;
  * or methods (for binding specific to that handler). It is retained at runtime
  * and is inheritable, allowing subclasses to inherit a parent's binding.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see org.springframework.javassist.utils.EndpointApiUtils#annotWebBound(javassist.bytecode.ConstPool, org.springframework.javassist.bytecode.definition.MvcBound)
  */
